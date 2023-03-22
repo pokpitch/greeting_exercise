@@ -11,5 +11,5 @@ func greetingWithAge(name string, age int) string {
 }
 
 func greetingWithAgeAndDrink(name string, age int, drink string) string {
-	return fmt.Sprintf("Hello, %s. You are %d years old. and your favorite drink is %s", name, age, drink)
+	return fmt.Sprintf("Hello, %s. You are %d years old and your favorite drink is %s", name, age, drink)
 }

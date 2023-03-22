@@ -27,7 +27,7 @@ func TestGreetingWithAgeAndDrink(t *testing.T) {
 	givenName := "Pokpitch"
 	givenAge := 39
 	givenDrink := "Coke"
-	want := "Hello, Pokpitch. You are 39 years old. and your favorite drink is Coke"
+	want := "Hello, Pokpitch. You are 39 years old and your favorite drink is Coke"
 
 	result := greetingWithAgeAndDrink(givenName, givenAge, givenDrink)
 	if result != want {
